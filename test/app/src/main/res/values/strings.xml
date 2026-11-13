@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App General -->
+    <string name="app_name">TEST_DAM</string>
+
+    <!-- Main Activity -->
+    <string name="tvNumar">Orase: %1$d</string>
+    <string name="btnInc">Incrementare nr. orase</string>
+    <string name="btnReset">Reseteaza noOrase</string>
+
+    <!-- Add Oras Activity -->
+    <string name="hint_etOras">Enter a city</string>
+    <string name="hint_etPopulatie">Enter the population</string>
+    <string name="hint_etNrPrimarie">Enter the public HALL phone number</string>
+    <string name="btnAddOras">Adauga oras</string>
+    <string name="btnInapoi">Inapoi</string>
+    <string name="btnGoleste">Goleste</string>
+    <!-- Despre Activity -->
+    <string name="tvNume">Cristi</string>
+    <string name="tvVersiune">Versiune %1$s</string>
+
+    <!-- Options Menu -->
+    <string name="menu_despre">Despre aplicatie</string>
+    <string name="menu_orase">Numarul de orase</string>
+    <string name="menu_sterg">Sterge tot</string>
+    <string name="menu_adauga">Adauga oras</string>
+
+    <!-- Details Activity -->
+    <string name="det_nume">Oraș: %1$s</string>
+    <string name="det_populatie">Populație: %1$d</string>
+    <string name="det_regiune">Regiune: %1$s</string>
+    <string name="det_resedinta_da">Reședință de județ</string>
+    <string name="det_resedinta_nu">Nu e reședință</string>
+    <string name="btn_Cauta_pe_Google">Cauta pe Google</string>
+    <string name="btn_Distribuie">Distribuie</string>
+    <string name="btn_Suna">Suna</string>
+
+    <string name="dialog_delete_item_title">Șterg obiect</string>
+    <string name="dialog_delete_item_message">Sigur vrei să ștergi acest oraș: %1$s?</string>
+
+    <!-- Dialog ștergere toată lista -->
+    <string name="dialog_delete_all_title">Șterge tot</string>
+    <string name="dialog_delete_all_message">Sigur vrei să ștergi tot?</string>
+
+    <!-- Butoane comune dialog -->
+    <string name="dialog_yes">Da</string>
+    <string name="dialog_no">Nu</string>
+    <string name="dialog_actualizeaza">Editeaza</string>
+    <string name="cb_resedinta">Resedinte de Judet</string>
+
+    <string name="titlu_adauga">Adaugă oraș</string>
+    <string name="titlu_editeaza">Editează oraș</string>
+    <string name="btn_actualizeaza">Actualizează</string>
+    <string name="item_detalii">%1$s · %2$d locuitori</string>
+    <string name="item_resedinta">Reședință</string>
+    <string-array name="regiuni">
+        <item>Moldova</item>
+        <item>Muntenia</item>
+        <item>Transilvania</item>
+        <item>Dobrogea</item>
+    </string-array>
+</resources>

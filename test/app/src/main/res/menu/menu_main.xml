@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_despre"
+        android:title="@string/menu_despre"
+        />
+    <item
+        android:id="@+id/no_Orase"
+        android:title="@string/menu_orase"/>
+    <item
+        android:id="@+id/menu_sterg"
+        android:title="@string/menu_sterg"/>
+
+    <item
+        android:id="@+id/menu_adauga"
+        android:title="@string/menu_adauga"/>
+</menu>

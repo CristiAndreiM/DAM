@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DespreActivity">
+
+    <TextView
+        android:id = "@+id/tvNume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNume"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/tvVersiune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvVersiune"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tvOrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNumar"
+        />
+    <Button
+        android:id="@+id/btnInapoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnInapoi"/>
+</LinearLayout>

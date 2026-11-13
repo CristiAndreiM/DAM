@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddOrasActivity">
+
+    <EditText
+        android:id="@+id/etOras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_etOras"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPopulatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_etPopulatie"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNrPrimarie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/hint_etNrPrimarie"
+        android:inputType="phone"
+        android:maxLength="10"/>
+
+    <Spinner
+        android:id="@+id/spRegiune"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/regiuni" />
+
+    <CheckBox
+        android:id="@+id/cbResedinta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cb_resedinta" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/btnAddOras" />
+
+    <Button
+        android:id="@+id/btnGoleste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGoleste"/>
+
+
+
+</LinearLayout>
