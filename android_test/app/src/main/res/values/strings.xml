@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Restaurante</string>
+
+    //meniu_principal
+    <string name="menu_adauga">Adaugă</string>
+    <string name="menu_numar_restaurante">Număr restaurante</string>
+    <string name="menu_despre">Despre</string>
+
+    //AddRestaurantActivity
+    <string name="hint_nume">Introduceti numele: </string>
+    <string name="hint_phone">Indroduceti numarul de telefon </string>
+    <string name="hint_rating">Indroduceti rating</string>
+    <string name="hint_livreaza">Se livreaza la domiciliu</string>
+    <string name="btn_actualizeaza">Actualizeaza</string>
+    <string name="titlu_editeaza">Editeaza restaurant</string>
+    <string name="titlu_adauga">Adauga restaurant nou</string>
+    //DetailsActivity
+    <string name="btn_suna">Apeleaza</string>
+    <string name="btn_distribuie">Distribuie</string>
+
+    //alertDialog
+    <string name="alert_Da">Da</string>
+    <string name="alert_Nu">Nu</string>
+    <string name="alert_mesaje_Stergere">Sigur vrei sa stergi acest element?</string>
+    <string name="alert_Editeaza">Editeaza</string>
+    <string name="btn_salveaza">Salveaza</string>
+    <string-array name="spBucatarie">
+        <item>Românească</item>
+        <item>Italiană</item>
+        <item>Asiatică</item>
+        <item>Fast-food</item>
+    </string-array>
+</resources>

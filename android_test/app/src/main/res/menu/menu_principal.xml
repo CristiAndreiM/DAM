@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/item_adauga"
+    android:title="@string/menu_adauga"/>
+
+    <item
+        android:id="@+id/item_numar_restaurante"
+        android:title="@string/menu_numar_restaurante"/>
+
+    <item
+        android:id="@+id/item_despre"
+        android:title="@string/menu_despre"/>
+</menu>

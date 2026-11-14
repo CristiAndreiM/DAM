@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Biblioteca</string>
+
+    <!-- MainActivity -->
+    <string name="titlu_ecran_principal">Biblioteca mea</string>
+    <string name="btn_add">Adaugă carte</string>
+    <string name="dialog_stergere_titlu">Ștergere</string>
+    <string name="dialog_stergere_mesaj">Sigur vrei să ștergi această carte?</string>
+    <string name="da">Da</string>
+    <string name="nu">Nu</string>
+
+    <!-- Meniu -->
+    <string name="menu_total_carti">Total cărți</string>
+    <string name="menu_total_disponibile">Total cărți disponibile</string>
+    <string name="toast_total_carti">Total cărți: %1$d</string>
+    <string name="toast_total_disponibile">Total cărți disponibile: %1$d</string>
+
+    <!-- AddCarteActivity (sincronizat exact cu XML-ul tău) -->
+    <string name="c">Adaugă o carte nouă</string>
+    <string name="et_nume">Titlu carte</string>
+    <string name="et_autor">Autor</string>
+    <string name="hint_an">An apariție</string>
+    <string name="cb_disponibila">Disponibilă</string>
+    <string name="btn_save">Salvează</string>
+    <string name="eroare_titlu_gol">Introdu titlul cărții</string>
+    <string name="eroare_autor_gol">Introdu numele autorului</string>
+    <string name="eroare_an_invalid">Anul trebuie să aibă 4 cifre (minim 2000)</string>
+
+    <string-array name="genuri_carti">
+        <item>Ficțiune</item>
+        <item>SF</item>
+        <item>Istorie</item>
+        <item>Biografie</item>
+        <item>Dezvoltare personală</item>
+    </string-array>
+
+    <!-- DetailsActivity -->
+    <string name="format_autor">Autor: %1$s</string>
+    <string name="format_gen">Gen: %1$s</string>
+    <string name="format_an">An apariție: %1$d</string>
+    <string name="status_disponibila">Disponibilă</string>
+    <string name="status_indisponibila">Indisponibilă</string>
+    <string name="btn_cauta_google">Caută pe Google</string>
+    <string name="eroare_browser">Nu a fost găsit niciun browser pe dispozitiv</string>
+</resources>

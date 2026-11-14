@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemTotalCarti"
+        android:title="@string/menu_total_carti"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemTotalCartiDisponibile"
+        android:title="@string/menu_total_disponibile"
+        app:showAsAction="never" />
+
+</menu>
