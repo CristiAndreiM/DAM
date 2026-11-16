@@ -143,6 +143,7 @@ public class MainActivity extends AppCompatActivity {
             if(id == R.id.item_Sortează_după_preț_descrescător)
             {
                 Collections.sort(lista, Comparator.comparing(Carte::getPret).reversed());
+                adapter.notifyDataSetChanged();
             }
             else
                 if(id == R.id.item_Statistici){
