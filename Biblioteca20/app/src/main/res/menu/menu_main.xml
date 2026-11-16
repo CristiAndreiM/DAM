@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Adauga"
+        android:title="Adauga"
+        ></item>
+
+    <item
+        android:id="@+id/item_sorteaza_dupa_titlu"
+        android:title="Sortează după titlu (A→Z"
+        ></item>
+
+    <item
+        android:id="@+id/item_Sortează_după_preț_descrescător"
+        android:title="Sortează după preț (descrescător)"
+        ></item>
+    <item
+        android:id="@+id/item_Statistici"
+        android:title="Statistici"
+        ></item>
+
+    <item
+        android:id="@+id/item_sterge"
+        android:title="Stergere tot"/>
+
+    <item
+        android:id="@+id/item_Raport"
+        android:title="Raport"></item>
+</menu>

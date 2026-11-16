@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Angajati</string>
+    <string name="menu_adauga">Adauga</string>
+<string name="menu_sterg">Stergere lista</string>
+    <string-array name="departamente_array">
+        <item>IT</item>
+        <item>HR</item>
+        <item>Vânzări</item>
+        <item>Financiar</item>
+    </string-array>
+</resources>

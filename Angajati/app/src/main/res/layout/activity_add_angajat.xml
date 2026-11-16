@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<EditText
+    android:id="@+id/etNume"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nume"
+    android:inputType="textPersonName" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:text="Departament"
+    android:textSize="14sp" />
+
+<Spinner
+    android:id="@+id/spDepartament"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:entries="@array/departamente_array"/>
+
+<EditText
+    android:id="@+id/etTelefon"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:hint="Telefon"
+    android:inputType="phone" />
+
+<EditText
+    android:id="@+id/etVechi"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:hint="Vechime (ani)"
+    android:inputType="number" />
+
+<CheckBox
+    android:id="@+id/cbLucreazaRemote"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:text="Lucrează remote" />
+
+<Button
+    android:id="@+id/btnSalveaza"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:text="Salvează Angajat" />
+
+</LinearLayout>

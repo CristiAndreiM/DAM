@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Biblioteca2.0</string>
+
+    <!-- main.xml -->
+    <string name="tvCarti">Carti: %1$d</string>
+    <string name="alertDialogLv">Ce faci cu aceasta carte?</string>
+    <string name="alert_editeaza">Editeaza</string>
+    <string name="alert_sterge">Sterge</string>
+    <string name="alert_Anuleaza">Anuleaza</string>
+
+    <!-- DetailsActivity -->
+    <string name="tvAn">An: %1$d</string>
+    <string name="tvPret">Pret: %1$.2f lei</string>
+    <string name="tvCitita_da">Citita</string>
+    <string name="tvCitita_nu">NeCitita</string>
+
+    <!-- AddCarteActivity -->
+    <string name="titlu_adauga">Adaugă carte</string>
+    <string name="titlu_editeaza">Editează carte</string>
+    <string name="hint_nume">Titlul cărții</string>
+    <string name="hint_autor">Autor</string>
+    <string name="hint_an">Anul apariției</string>
+    <string name="hint_pret">Preț (RON)</string>
+    <string name="cb_citita">Carte citită</string>
+    <string name="btn_salveaza">Salvează</string>
+    <string name="btn_actualizeaza">Actualizează</string>
+    <string name="btnGoleste">Goleste</string>
+
+    <!-- Genuri literare pentru Spinner -->
+    <string-array name="genuri_carti">
+        <item>Roman realist</item>
+        <item>Science Fiction</item>
+        <item>Roman social</item>
+        <item>Distopie</item>
+        <item>Ficțiune</item>
+        <item>Fantezie</item>
+        <item>Thriller</item>
+        <item>Biografie</item>
+    </string-array>
+</resources>
