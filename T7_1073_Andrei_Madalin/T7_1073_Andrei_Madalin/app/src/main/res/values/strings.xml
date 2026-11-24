@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Seminar09</string>
+    <string name="lista_biblioteci">Lista biblioteci:</string>
+    <string name="rezultat_text">Numarul total de carti: %1$d | Capacitatea medie: %2$.2f</string>
+</resources>
